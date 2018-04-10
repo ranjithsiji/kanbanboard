@@ -1,7 +1,7 @@
-<?php
-class Kanbanmodel extends Model {
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+class Kanbanmodel extends CI_Model {
 
-    function __construct()
+    public function __construct()
     {
         // Call the Model constructor
         parent::__construct();
@@ -314,4 +314,4 @@ class Kanbanmodel extends Model {
 
 }
 
-?>
+

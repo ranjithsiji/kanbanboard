@@ -1,14 +1,10 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Kanbanblog extends Controller {
+class Kanbanblog extends CI_Controller {
 
-	function Kanbanblog()
-	{
-		parent::Controller();
-		$this->load->database();     
-		$this->load->helper('xml');    
-		$this->load->helper('url');
-		$this->load->library('session');
+    public function __construct() {
+		parent::__construct();
 	}
 	
 	function index()

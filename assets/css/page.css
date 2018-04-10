@@ -1,0 +1,26 @@
+body {background:#fff;}
+#wrapper {
+			width: 800px; 
+			margin-right: auto;
+			margin-left: auto;
+		}
+				
+		#settingsdiv {
+			padding: 30px 20px 30px 20px;
+			border-color:#CCCCCC;
+			border-style: solid;
+			border-width:thin;
+		}
+		
+		#lefthandside {
+			float: left;
+			width: 300px;
+			padding-left: 10px;
+			border-left: 1px dashed #999999;
+		}
+		#righthandside {
+			float: right;
+			width: 300px;
+			padding-right: 10px;
+			border-right: 1px dashed #999999;
+		}

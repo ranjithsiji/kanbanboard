@@ -1,13 +1,11 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-class kanban extends Controller {
+class Kanban extends CI_Controller {
 
-    function kanban()    {
-        parent::Controller();
-		$this->load->database();     
-		$this->load->helper('xml');    
-		$this->load->helper('url');
-		$this->load->library('session');
+
+    public function __construct() {
+		parent::__construct();
 		$this->load->model('Kanbanmodel','kanbanmodel',TRUE);
 		
 	}
@@ -2614,4 +2612,3 @@ class kanban extends Controller {
 
 }
 
-?>
